@@ -77,7 +77,7 @@ bool loadMedia()
 	gXOut = SDL_LoadBMP( "./grill.bmp" );
 	if( gXOut == NULL )
 	{
-		printf( "Unable to load image %s! SDL Error: %s\n", "03_event_driven_programming/x.bmp", SDL_GetError() );
+		printf( "Unable to load image %s! SDL Error: %s\n", "./grill.bmp", SDL_GetError() );
 		success = false;
 	}
 
